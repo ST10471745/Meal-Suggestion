@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:inputType="text"
+        android:text="Hello Hera" />
+
+    <EditText
+        android:id="@+id/inputTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter time of day (Morning, Mid-morning..)"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btnSuggest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Meal Suggestion" />
+
+    <TextView
+        android:id="@+id/tvMealSuggestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Meal suggestion will appear here"
+        android:textSize="18sp"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:src="drawables/" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="406dp"
+        android:src="@drawable/img" />
+</LinearLayout>
